@@ -27,6 +27,5 @@ public class KafkaConsumer {
         } catch (SerializationException e) {
             log.info("Invalid message received");
         }
-
     }
 }
